@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: solid black .1rem;
+    border-bottom: solid lightblue .2rem;
 }
 
 .logo {
@@ -20,5 +20,22 @@ header {
 .navigation li{
    display: inline-block; 
    margin-right: 40px;
-   font-family:
 }
+
+.banner {
+    background-image: url('./swoop_2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 45rem;
+}
+
+.banner-content {
+    width: 25%;
+    background-color: lightblue;
+    float: right;
+    margin-top: 25rem;
+}
+
+.banner-text {
+    margin-left: 2rem;
+    text-shadow: 1px 1px lightgray;
