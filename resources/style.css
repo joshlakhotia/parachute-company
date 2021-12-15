@@ -1,11 +1,11 @@
 html, body {
     margin:auto;
-    padding:10px;
+    /* padding: 0 .3rem; */
     background-color:#ebebeb;
 }
 
 header {
-    height: 60px;
+    height: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,11 +31,12 @@ header {
 
 .banner-content {
     width: 25%;
-    background-color: lightblue;
+    background-color: rgba(173,216,230, .75);
     float: right;
     margin-top: 25rem;
 }
 
 .banner-text {
     margin-left: 2rem;
-    text-shadow: 1px 1px lightgray;
+    text-shadow: 2px 2px lightgray;
+}
