@@ -40,3 +40,57 @@ header {
     margin-left: 2rem;
     text-shadow: 2px 2px lightgray;
 }
+
+.product-section {
+
+}
+
+.product-title {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: lightblue;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+}
+
+.product {
+    background-color: blue;
+    width: 20rem;
+    height: auto;
+    text-align: center;
+    margin: 2rem;
+    padding: 5rem;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(75%);
+}
+
+.swooping {
+    background-image: url('Canopy-Piloting-in-Ruppiner-Land.jpg');
+}
+
+.wingsuit {
+    background-image: url('wingsuit.jpg');
+}
+
+.base {
+    background-image: url('base.jpg');
+}
+
+.accuracy {
+    background-image: url('parachuting-accuracy-05_0.jpg');
+}
+
+.student {
+    background-image: url('student-parachute.jpg');
+}
+
+.product-list p {
+    font-size: 3rem;
+    background-color: rgba(173,216,230, .5);
+}
